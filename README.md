@@ -44,7 +44,14 @@ By running
 node liri.js do-what-it-says
 ```
 
-LIRI Bot will run spotify-this-song for I Want it That way. It reads the file random.txt and processes the commands in it (spotify-this-song, I Want it That Way) and runs it.
+LIRI Bot will run spotify-this-song for I Want it That Way. It reads the file random.txt and processes the commands in it (spotify-this-song, I Want it That Way) and runs it.
+
+### command not found
+
+If the command is not one of the ones specified above, the program will print a menu like so:
+
+![alt text](https://github.com/kathdovi/LIRI-Bot/blob/master/invalid-command.png)
+
 
 ## Built With
 
