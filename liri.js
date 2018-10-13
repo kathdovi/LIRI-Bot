@@ -107,7 +107,7 @@ function movieThis(media) {
     request("http://www.omdbapi.com/?apikey=trilogy&t=" + media, function (error, response, data) {
         try {
             var response = JSON.parse(data)
-            if (response.length != 0) {
+            if (response.Title != undefined) {
                 console.log(chalk.green("*************Movie Name**************"));
                 console.log(response.Title);
                 console.log(chalk.green("*****************Year****************"));
