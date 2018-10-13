@@ -76,5 +76,3 @@ If the command is not one of the ones specified above, the program will print a 
 ## Authors
 
 * **Kathleen Doviken** - *Initial work* - [kathdovi](https://github.com/kathdovi)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
